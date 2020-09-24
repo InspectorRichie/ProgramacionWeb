@@ -1,0 +1,57 @@
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    background: #9abaed;
+}
+
+body header{
+    background: #5190f5;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+body header h1{
+    margin: 0 auto;
+    font-weight: 700;
+    text-shadow: 5px 5px grey ;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body header nav ul {
+    background: #000;
+}
+
+body header nav ul li {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    margin: 0 15px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: #fff;
+}
+
+body header nav ul li:hover {
+    color: #000;
+    background: #fff;
+}
+
+footer{
+    background: #5190f5;
+    font-weight: bold;
+    text-align: center;
+    height: 50px;
+}
+
+#seccion1 {
+    background: #fff;
+    border: 3px solid #000;
+}
+
+#seccion1 article{
+    display: inline-block;
+    border: 2px solid red;
+    width: 48%;
+    vertical-align: top;
+}
