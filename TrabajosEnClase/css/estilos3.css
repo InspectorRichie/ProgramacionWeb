@@ -90,3 +90,61 @@ por ese valor*/
     bottom: 0;
     margin: auto;
 }
+
+/*FIXED*/
+
+body{
+    margin: 0 auto;
+ /*   margin-top: 50px;*/
+}
+
+.menu{
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    /*position: fixed;
+    width: 100%;
+    top: 0;*/
+    position: sticky;
+    top: 0;
+}
+
+.titulo{
+    margin: 0;
+}
+
+/*STICKY FINGAS*/
+.banner{
+    height: 100px;
+    background: darkgray;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/*DISPLAY
+
+inline
+block
+inline-block
+none
+
+*/
+
+.linea{
+    background: lightcoral;
+    display: none;
+}
+
+.bloque{
+    background: yellow;
+}
+
+nav ul li {
+    display: inline-block;
+}
+nav ul li:hover {
+    background: lightskyblue;
+}
