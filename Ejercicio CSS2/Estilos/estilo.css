@@ -39,7 +39,7 @@ aside, .seccion1{
 }
 
 aside{
-    width: 39%;
+    width: 35%;
 }
 
 .seccion1 {
@@ -115,4 +115,45 @@ aside{
     font-weight: 600;
     background-image: linear-gradient(#ef6000 5%, #fed0b2 10%, #ef6000 40%);
     border-radius: 7px;
+}
+
+.centrar {
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 12px;
+}
+
+.publicidad, .buscador, .categorias {
+    border: 1px solid silver;
+    border-radius: 12px;
+}
+
+.publicidad-imagenes {
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.buscador form {
+    text-align: center;
+    margin: 15px 0 10px;
+}
+
+.buscador form span {
+    border: 1px solid silver;
+    border-radius: 18px;
+    padding: 8px 5px 10px;
+}
+
+.form-buscador {
+    border-radius: 12px;
+    padding: 5px;
+    border: inherit;
+}
+
+.form-boton {
+    border-radius: 15px;
+    color: #ffffff;
+    background: silver;
+    border: 1px solid grey;
+    height: 30px;
 }
