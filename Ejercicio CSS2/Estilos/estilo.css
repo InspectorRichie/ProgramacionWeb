@@ -126,6 +126,7 @@ aside{
 .publicidad, .buscador, .categorias {
     border: 1px solid silver;
     border-radius: 12px;
+    margin-top: 20px;
 }
 
 .publicidad-imagenes {
@@ -156,4 +157,12 @@ aside{
     background: silver;
     border: 1px solid grey;
     height: 30px;
+}
+
+.categorias ul li {
+    font-size: 14px;
+    color: rgb(108, 107, 107);
+    border-bottom: 1px dotted;
+    padding: 5px;
+    margin-right: 25px;
 }
