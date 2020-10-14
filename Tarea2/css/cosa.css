@@ -1,0 +1,237 @@
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eaeaea;
+}
+
+/*todas las mamadas del header*/
+
+header{
+    background: #1b577b;
+    text-align: center;
+}
+
+header img{
+    margin-bottom: 0;
+    padding: 10px 0 0;
+    width: 200px;
+    vertical-align: middle;
+}
+
+header nav{
+    background: #eaeaea;
+    margin-top: 0;
+    text-align: right;
+}
+
+header nav ul{
+    padding: 20px 0 25px;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+    margin-left: 20px;
+    
+}
+
+/*aside*/
+
+aside{
+    vertical-align: top;
+    display: inline-block;
+    width: 23%;
+}
+
+.barra{
+    background: #1b587c;
+    color: #ffffff;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+
+.barra span{
+    display: inline-block;
+    margin: 10px 0 0 -70px;
+}
+
+.barra .chale{
+    display: inline-block;
+    margin: 10px 0 0 -45px;
+}
+
+.panel1 .lista{
+    background: #44718a;
+    margin: 0;
+}
+
+.lista ul{
+    margin: 0 0 20px;
+    list-style-type: none;
+    
+    
+}
+
+.lista ul li{
+    color: #ffffff;
+    padding: 4px 1px;
+}
+
+.panel2{
+    background: #ffffff;
+    color: gray;
+}
+
+.panel2 .dentro{
+    margin: 5px 10px 0;
+    padding-bottom: 10px;
+}
+
+.cuadro1, .cuadro2, .cuadro3{
+    height: 20px;
+    margin: 10px 0 10px;
+    width: 95%;
+    border: silver solid 1px;
+}
+
+.cuadro1{
+    background: linear-gradient(to right, #5f4877 49%, #f5f4f5 49%);
+}
+
+.cuadro2{
+    background: linear-gradient(to right, #4e8542 32%, #f5f4f5 32%);
+}
+
+.cuadro3{
+    background: linear-gradient(to right, #f07e07 73%, #f5f4f5 73%);
+}
+
+/* cosillas de las secciones*/
+section{
+    margin-left: 40px;
+    display: inline-block;
+    width: 71%;
+    vertical-align: top;
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+section h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 0 20px 30px;
+}
+
+/*cubos*/
+.cubo1, .cubo2, .cubo3, .cubo4{
+    display: inline-block;
+    width: 150px;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.cubo1{
+    margin-left: 25px;
+    background: #01b04f;
+}
+
+.cubo2{
+    background: #ffbf00;
+}
+
+.cubo3{
+    background: #6f2f9f;
+}
+
+.cubo4{
+    background: #9e2936;
+}
+
+.cubo1 img, .cubo2 img, .cubo3 img, .cubo4 img{
+    width: 50px;
+    margin: 5px 0 0;
+}
+
+.cubo1 p, .cubo2 p, .cubo3 p, .cubo4 p{
+    margin: 0 0 5px;
+}
+
+/*paneles*/
+
+.p1, .p2, .p3{
+    color: silver;
+    display: inline-block;
+    width: 227px;
+    text-align: center;
+}
+
+.p1{
+    margin-left: 25px;
+    border: 1px solid #bbe7ef;
+}
+
+.p2{
+    border: 1px solid #fbebcc;
+}
+
+.p3{
+    border: 1px solid #ebccd0;
+}
+
+.p1 img, .p2 img, .p3 img{
+    width: 227px;
+}
+
+.porcentaje1, .porcentaje2, .porcentaje3{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.porcentaje1{
+    background: #bbe7ef;
+}
+
+.porcentaje2{
+    background: #fbebcc;
+}
+
+.porcentaje3{
+    background: #ebccd0;
+}
+
+/*usuarios*/
+
+.usuario{
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+    background: #437b92;
+    width: 150px;
+    padding: 0 0 10px;
+    margin: 0 10px 15px 15px;
+    height: 150px;
+}
+
+.usuario img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px 0 5px;
+    padding: 0;
+}
+
+.usuario p{
+    display: inline-block;
+    background: #c2e1f2;
+    color: #ffffff;
+    margin: 0;
+    padding: 3px 6px;
+    border-radius: 5px;
+}
